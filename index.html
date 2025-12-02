@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Markus Räikkönen</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  <div class="page-wrapper">
+    <!-- 배경 대각형 -->
+    <div class="bg-block bg-block--top-left"></div>
+    <div class="bg-block bg-block--bottom-right"></div>
+
+    <!-- 전체 컨텐츠 -->
+    <header class="header">
+      <div class="header__logo">On<span>folio</span></div>
+
+      <nav class="nav">
+        <button class="nav__toggle" aria-label="메뉴 열기">
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav__links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <!-- 왼쪽 텍스트 영역 -->
+      <section class="hero__intro">
+        <p class="hero__eyebrow">Product Designer</p>
+        <h1 class="hero__title">Markus Räikkönen</h1>
+        <p class="hero__subtitle">
+          Better design, better experiences. Crafting delightful digital
+          products for people.
+        </p>
+        <div class="hero__actions">
+          <button class="btn btn--primary">Get Started</button>
+          <button class="btn btn--ghost">Portfolio</button>
+        </div>
+      </section>
+
+      <!-- 오른쪽 히어로 이미지 영역 -->
+      <section class="hero__visual">
+        <div class="hero__shape hero__shape--purple"></div>
+        <div class="hero__shape hero__shape--yellow"></div>
+        <div class="hero__person">
+          <!-- 실제 프로젝트에서는 여기 img src를 교체하면 됩니다 -->
+          <div class="hero__placeholder-person">
+            <span>Photo</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 서비스 카드 섹션 -->
+    <section class="services">
+      <div class="services__grid">
+        <article class="service-card">
+          <h3>User Research</h3>
+          <p>Understand your users deeply through qualitative & quantitative research.</p>
+        </article>
+        <article class="service-card">
+          <h3>Visual Design</h3>
+          <p>Clean, modern interfaces with a focus on clarity and hierarchy.</p>
+        </article>
+        <article class="service-card">
+          <h3>User Testing</h3>
+          <p>Validate your ideas with real people and iterate with confidence.</p>
+        </article>
+        <article class="service-card">
+          <h3>Prototyping</h3>
+          <p>Interactive prototypes that bring your concepts to life quickly.</p>
+        </article>
+      </div>
+
+      <div class="services__copy">
+        <h2>Better design, better experiences</h2>
+        <p>
+          I help teams ship products that are both beautiful and useful.
+          From early discovery to final polish, I collaborate closely with
+          product and engineering to create experiences that people love.
+        </p>
+        <button class="btn btn--secondary">Let's talk</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© 2025 Markus Räikkönen</span>
+      <span class="footer__dot"></span>
+      <span>Product Designer</span>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
