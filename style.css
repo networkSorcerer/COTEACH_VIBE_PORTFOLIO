@@ -235,19 +235,11 @@ img {
   box-shadow: 0 26px 45px rgba(0, 0, 0, 0.35);
 }
 
-.hero__placeholder-person {
+.hero__img {
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at 30% 10%, #ffefb8, #f9a826 55%, #f08c00);
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding-bottom: 1.4rem;
-  color: white;
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  font-size: 0.85rem;
+  object-fit: cover;
+  display: block;
 }
 
 /* 서비스 섹션 */
